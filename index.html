@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div class="navbar-cont d-none d-sm-flex">
+      <h1>I<span style="color: #02c5e9">Play</span></h1>
+      <div class="nav-section">
+        <a href="index.html" class="navlink navactive">Home</a>
+        <a href="About_Us.html" class="navlink">About Us</a>
+        <a href="#Contact-Us" class="navlink">Contact Us</a>
+        <a href="Shop.html" class="shoplink"> shop</a>
+      </div>
+      <div class="search-bar-section">
+        <input type="text" placeholder="search for components" />
+        <input type="button" value="search" />
+      </div>
+    </div>
+    <!-- Mobile view nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex d-sm-none">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="index.html"
+          >I<span style="color: #02c5e9">Play</span>
+        </a>
+        <button
+          class="navbar-toggler mobile-nav-toggle"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link mobile-active nav-mobile"
+                aria-current="page"
+                href="index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-mobile" href="About_Us.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-mobile" href="#mobilefooter">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-mobile" href="Shop.html">SHOP</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 mobile-search-bar"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success mobile-btn" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- content 1 -->
+    <div class="content-1-cont d-none d-sm-flex">
+      <div class="content-1-description">
+        <p class="hero-title">
+          Upgrade Your PC with the Best Computer Components
+        </p>
+        <p class="tagline">
+          Get the performance and power you need with our wide selection of
+          computer components
+        </p>
+        <input type="button" value="Shop Now" />
+      </div>
+      <div class="content-1-image">
+        <img src="img/img7.jpg" alt="test-image" />
+      </div>
+      <div class="Depth"></div>
+    </div>
+    <div class="shop-2 d-none d-sm-flex">
+      <div class="heading">
+        <p>Product Categories</p>
+      </div>
+      <div class="search-bar-box">
+        <input type="text" placeholder="Search for components" />
+        <input type="button" value="Search" />
+      </div>
+      <div class="catergory-box">
+        <div class="upper-section">
+          <div class="monitor">
+            <i class="fa-solid fa-desktop"></i>
+            <p>MONITOR</p>
+          </div>
+          <div class="keyboard">
+            <i class="fa-solid fa-keyboard"></i>
+            <p>KEYBOARD</p>
+          </div>
+          <div class="motherboard">
+            <i class="fa-solid fa-network-wired"></i>
+            <p>MOTHERBOARD</p>
+          </div>
+          <div class="ram">
+            <i class="fa-solid fa-memory"></i>
+            <p>RAM</p>
+          </div>
+          <div class="video-graphics">
+            <i class="fa fa-hard-drive"></i>
+            <p>VIDEO-GRAPHICS</p>
+          </div>
+        </div>
+        <div class="lower-section">
+          <div class="powersupply">
+            <i class="fa fa-bolt"></i>
+            <p>powersupply</p>
+          </div>
+          <div class="harddrive">
+            <i class="fa-regular fa-hard-drive"></i>
+            <p>harddrive</p>
+          </div>
+          <div class="computer-mouse">
+            <i class="fa fa-computer-mouse"></i>
+            <p>computer mouse</p>
+          </div>
+          <div class="cooling-fan">
+            <i class="fa-solid fa-fan"></i>
+            <p>cooling fan</p>
+          </div>
+          <div class="printer">
+            <i class="fa-solid fa-print"></i>
+            <p>printer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content 1 mobile view -->
+    <div class="content-1-mobile d-flex d-sm-none">
+      <p class="herotitle">Upgrade Your PC with the Best Computer Components</p>
+      <p class="tagline">
+        Get the performance and power you need with our wide selection of
+        computer components
+      </p>
+      <a class="shop-button" href="Shop.html">Shop now</a>
+      <div class="depth"></div>
+    </div>
+    <div class="content-2-cont d-none d-sm-flex">
+      <div class="content-img">
+        <img src="img/img8.jpg" alt="" />
+      </div>
+      <div class="content-description">
+        <p class="hero-title">
+          Unlock Your PC's Potential with Our High-Performance Components
+        </p>
+        <p class="tagline">
+          Get the performance and power you need with our wide selection of
+          computer components
+        </p>
+        <input type="button" value="Shop Now" />
+      </div>
+      <div class="Depth-2"></div>
+    </div>
+    <!-- content 2 mobile -->
+    <div class="content-2-mobile d-flex d-sm-none">
+      <input type="search" placeholder="Search for components" />
+      <input type="button" value="Search" />
+      <p>Product Categories</p>
+      <div class="product-catergory-cont">
+        <div class="product-btn monitor-m">
+          <i class="fa-solid fa-desktop"></i>
+          <p>MONITOR</p>
+        </div>
+        <div class="product-btn keyboard-m">
+          <i class="fa-solid fa-keyboard"></i>
+          <p>KEYBOARD</p>
+        </div>
+        <div class="product-btn mother-board-m">
+          <i class="fa-solid fa-network-wired"></i>
+          <p>MOTHERBOARD</p>
+        </div>
+        <div class="product-btn ram-m">
+          <i class="fa-solid fa-memory"></i>
+          <p>RAM</p>
+        </div>
+        <div class="product-btn video-graphics-m">
+          <i class="fa fa-hard-drive"></i>
+          <p>VIDEO-GRAPHICS</p>
+        </div>
+        <div class="product-btn powersupply-m">
+          <i class="fa fa-bolt"></i>
+          <p>powersupply</p>
+        </div>
+        <div class="product-btn hard-drive-m">
+          <i class="fa-regular fa-hard-drive"></i>
+          <p>harddrive</p>
+        </div>
+        <div class="product-btn computer-mouse-m">
+          <i class="fa fa-computer-mouse"></i>
+          <p>computer mouse</p>
+        </div>
+        <div class="product-btn cooling-fan-m">
+          <i class="fa-solid fa-fan"></i>
+          <p>cooling fan</p>
+        </div>
+        <div class="product-btn printer-m">
+          <i class="fa-solid fa-print"></i>
+          <p>printer</p>
+        </div>
+      </div>
+      <div class="depth"></div>
+    </div>
+    <!-- content 3 -->
+    <div class="content-3 d-none d-sm-block">
+      <p class="hero-sales">New year Sales</p>
+      <p class="tagline-sales">Jan 17 - Jan 23 2023</p>
+      <div class="sales-content">
+        <div class="sale-cont-1">
+          <p class="sale-head">New Arrival</p>
+          <div class="promo-cont">
+            <i class="fa-solid fa-star"></i>
+            <p class="sale-body">Introducing the NVIDIA GeForce RTX 3090</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="sale-cont-2">
+          <p class="sale-head">Limited Time Offer</p>
+          <div class="promo-cont">
+            <i class="fa-solid fa-star"></i>
+            <p class="sale-body">Save 10% on All Processor Orders</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="sale-cont-3">
+          <p class="sale-head">Clearance Sale</p>
+          <div class="promo-cont">
+            <i class="fa-solid fa-star"></i>
+            <p class="sale-body">Huge Savings on Memory</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Depth-3"></div>
+    </div>
+    <div class="content-3-mobile d-flex d-sm-none">
+      <p class="herotitle">
+        Unlock Your PC's Potential with Our High-Performance Components
+      </p>
+      <p class="tagline">
+        Get the performance and power you need with our wide selection of
+        computer components
+      </p>
+      <a href="Shop.html">Shop now</a>
+      <div class="depth"></div>
+    </div>
+    <!-- content 4 -->
+    <div class="content-4-cont d-none d-sm-flex">
+      <div class="content-img">
+        <i class="fa-solid fa-truck-fast"></i>
+      </div>
+      <div class="content-description">
+        <p class="hero-title">For an easy shopping</p>
+        <p class="tagline">We also offer delivery to your current places</p>
+        <div class="demo-cont">
+          <div class="steps">Step 1</div>
+          <div class="steps">Step 2</div>
+          <div class="steps">Step 3</div>
+        </div>
+      </div>
+      <div class="Depth-4"></div>
+    </div>
+    <!-- content 4 mobile -->
+    <div class="content-4-mobile d-sm-none">
+      <p class="herotitle">New year Sales</p>
+      <p class="tagline">2023</p>
+      <div class="mobile-sale-cont">
+        <div class="mobile-sale sale-1">
+          <p class="sale-head">New Arrival</p>
+          <div class="sale-m-cont">
+            <i class="fa-solid fa-star"></i>
+            <p>Introducing the NVIDIA GeForce RTX 3090</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="mobile-sale sale-2">
+          <p class="sale-head">Limited Time Offer</p>
+          <div class="sale-m-cont">
+            <i class="fa-solid fa-star"></i>
+            <p>Save 10% on All Processor Orders</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="mobile-sale sale-3">
+          <p class="sale-head">Clearance Sale</p>
+          <div class="sale-m-cont">
+            <i class="fa-solid fa-star"></i>
+            <p>Huge Savings on Memory</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="depth"></div>
+    </div>
+    <!-- content 5 -->
+    <div class="content-5-cont d-none d-sm-flex">
+      <div class="content-description">
+        <p class="hero-title">About Us</p>
+        <p class="tagline">
+          Welcome to our website, your one-stop shop for all your computer
+          component needs. We understand that building or upgrading a computer
+          can be a daunting task, and that's why we're here to help.
+        </p>
+        <input type="button" value="Read more" />
+      </div>
+      <div class="content-img">
+        <img src="img/img9.jpg" alt="test-img" srcset="" />
+      </div>
+      <div class="Depth-6"></div>
+      <div class="Depth-7"></div>
+    </div>
+    <!-- content 5 mobile  -->
+    <div class="content-5-mobile d-flex d-sm-none">
+      <div class="head-box">
+        <p class="herotitle">For an easy shopping</p>
+        <p class="tagline">We also offer delivery to your current places</p>
+      </div>
+      <div class="steps">
+        <div class="demo">Step 1</div>
+        <div class="demo">Step 2</div>
+        <div class="demo">Step 3</div>
+      </div>
+    </div>
+    <div class="content-6-cont d-none d-sm-flex">
+      <p class="content-6-header">FAQ'S</p>
+      <div class="faqs-cont">
+        <div class="left-section-faqs">
+          <div class="accordion" id="accordionLeft">
+            <div class="accordion-item border-gone">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button collapsed faqbtn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  Q: What types of computer components do you sell?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionLeft"
+              >
+                <div class="accordion-body">
+                  A: We sell a wide range of computer components including
+                  processors, graphics cards, motherboards, and memory from top
+                  brands such as Intel, AMD, NVIDIA, ASUS, Gigabyte, and many
+                  more.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-gone">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed faqbtn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  Q: Do you offer warranties on your products?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionLeft"
+              >
+                <div class="accordion-body">
+                  A: Yes, we offer warranties on all of our products. The
+                  warranty period and terms vary depending on the product. You
+                  can find warranty information on the product page or contact
+                  us for more details.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-gone">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed faqbtn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                >
+                  Q: How can I pay for my order?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionLeft"
+              >
+                <div class="accordion-body">
+                  A: We accept a variety of payment methods, including credit
+                  and debit cards, PayPal, Gcash and bank transfer.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-section-faqs">
+          <div class="accordion" id="accordionRight">
+            <div class="accordion-item border-gone">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed faqbtn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  Q: What is your return policy?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionRight"
+              >
+                <div class="accordion-body">
+                  A: We offer a hassle-free return policy. If you are not
+                  satisfied with your purchase, you can contact us within 30
+                  days of receipt to request a return or exchange.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-gone">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed faqbtn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                >
+                  Q: How long will it take to receive my order?
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionRight"
+              >
+                <div class="accordion-body">
+                  A: Shipping times vary depending on your location and the
+                  products you have ordered. You can check the estimated
+                  delivery time on the product page or at checkout.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-gone">
+              <h2 class="accordion-header" id="headingSix">
+                <button
+                  class="accordion-button collapsed faqbtn"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                >
+                  Q: How can I contact customer service if I have a question or
+                  problem?
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionRight"
+              >
+                <div class="accordion-body">
+                  A: You can contact our customer service team by phone, email,
+                  or live chat. Our customer service hours are Monday through
+                  Friday from 9am to 5pm. <br />
+                  <a href="">
+                    <input
+                      class="accordion-contact-btn"
+                      type="button"
+                      value="Contact Us"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content 6 mobile -->
+    <div class="content-6-mobile d-sm-flex d-sm-none">
+      <p class="herotitle">About Us</p>
+      <p class="tagline">
+        Welcome to our website, your one-stop shop for all your computer
+        component needs. We understand that building or upgrading a computer can
+        be a daunting task, and that's why we're here to help.
+      </p>
+      <a href="About_Us.html">Read More</a>
+    </div>
+    <!-- content 7 mobile -->
+    <div class="content-7-mobile d-sm-flex d-sm-none">
+      <p class="header">FAQ'S</p>
+      <div class="mobile-accordion">
+        <div class="accordion" id="accordionLeft">
+          <div class="accordion-item border-gone">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed faqbtn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                Q: What types of computer components do you sell?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                A: We sell a wide range of computer components including
+                processors, graphics cards, motherboards, and memory from top
+                brands such as Intel, AMD, NVIDIA, ASUS, Gigabyte, and many
+                more.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-gone">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed faqbtn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                Q: Do you offer warranties on your products?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                A: Yes, we offer warranties on all of our products. The warranty
+                period and terms vary depending on the product. You can find
+                warranty information on the product page or contact us for more
+                details.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-gone">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed faqbtn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                Q: How can I pay for my order?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                A: We accept a variety of payment methods, including credit and
+                debit cards, PayPal, Gcash and bank transfer.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-gone">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed faqbtn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+              >
+                Q: What is your return policy?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                A: We offer a hassle-free return policy. If you are not
+                satisfied with your purchase, you can contact us within 30 days
+                of receipt to request a return or exchange.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-gone">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed faqbtn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+              >
+                Q: How long will it take to receive my order?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                A: Shipping times vary depending on your location and the
+                products you have ordered. You can check the estimated delivery
+                time on the product page or at checkout.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-gone">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed faqbtn"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+              >
+                Q: How can I contact customer service if I have a question or
+                problem?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLeft"
+            >
+              <div class="accordion-body">
+                A: You can contact our customer service team by phone, email, or
+                live chat. Our customer service hours are Monday through Friday
+                from 9am to 5pm. <br />
+                <a href="">
+                  <input
+                    class="accordion-contact-btn"
+                    type="button"
+                    value="Contact Us"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="Contact-Us" class="footer-cont d-none d-sm-flex">
+      <div class="footer-head">
+        <p class="head">Contact Us</p>
+      </div>
+      <div class="footer-body">
+        <div class="form-cont">
+          <p class="form-head">Let us know more about you</p>
+          <div class="form-body">
+            <div class="form-names">
+              <input class="names" type="text" placeholder="Firstname" />
+              <input class="names" type="text" placeholder="Lastname" />
+            </div>
+            <input class="text" type="text" placeholder="Email Address" />
+            <input class="text" type="text" placeholder="Phone" />
+            <input
+              class="text message"
+              type="text"
+              placeholder="Tell us here"
+            />
+            <input type="button" value="Submit" />
+          </div>
+        </div>
+        <div class="quick-links-cont">
+          <p class="head">QUICK LINKS</p>
+          <a class="links">HOME</a>
+          <a class="links">ABOUT US</a>
+          <a class="links">SHOP</a>
+        </div>
+        <div class="w-t-r-u-cont">
+          <p>Where to reach us</p>
+          <div style="display: flex; flex-direction: column; line-height: 40px">
+            <a href="#"
+              ><i class="fa-solid fa-envelope"></i>rikiikir54@gmail.com</a
+            >
+            <a href="#"><i class="fa-solid fa-phone"></i>+63 925 780 9901</a>
+            <a href="#"
+              ><i class="fa-sharp fa-solid fa-location-dot"></i
+              >CebuCity6000Philippines</a
+            >
+            <a href="#"><i class="fa-solid fa-crown"></i>VivaPitSenior2023</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-foot">
+        <div class="footer-content">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- mobile footer -->
+    <div id="mobilefooter" class="mobile-footer d-sm-flex d-sm-none">
+      <div class="footer-header">Contact-Us</div>
+      <div class="footer-header-links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="links-cont">
+        <div class="quick-links-m">
+          <p class="header-l">Quick Links</p>
+          <div class="links">
+            <a href="index.html">home</a>
+            <a href="About_Us.html">about us</a>
+            <a href="Shop.html">shop</a>
+          </div>
+        </div>
+        <div class="where-to-links-cont">
+          <p>where to reach us</p>
+          <div class="where-to-links">
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            <i class="fa-solid fa-crown"></i>
+            <div class="link1"><a href="#">rikiikir54@gmail.com</a></div>
+            <div class="link2"><a href="#">+63 925 780 9901</a></div>
+            <div class="link3"><a href="#">CebuCity6000Philippines</a></div>
+            <div class="link4">
+              <a
+                href="https://en.wikipedia.org/wiki/Santo_Ni%C3%B1o_de_Ceb%C3%BA"
+                >VivaPitSenior2023</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="form-cont-m">
+          <input
+            class="firstname-m"
+            type="text"
+            name="firstname"
+            placeholder="firstname"
+          />
+          <input
+            class="lastname-m"
+            type="text"
+            name="lastname"
+            placeholder="lastname"
+          />
+          <input
+            class="email-m"
+            type="email"
+            name="email"
+            placeholder="email address"
+          />
+          <input class="phoneNo-m" type="text" placeholder="phone no." />
+          <input
+            class="message-m"
+            type="text"
+            name="message"
+            placeholder="tell us here"
+          />
+          <input class="submit-btn-m" type="button" value="Submit" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
